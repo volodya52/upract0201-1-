@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+    <StackLayout Orientation="Vertical" Spacing="0">
+        <StackLayout Orientation="Horizontal" Spacing="0">
+            <BoxView Color="Yellow" WidthRequest="135" HeightRequest="170"/>
+            <BoxView Color="Red" WidthRequest="140" HeightRequest="170"/>
+            <BoxView Color="Green" WidthRequest="140" HeightRequest="170"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <BoxView Color="Black" WidthRequest="420" HeightRequest="200"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Spacing="0">
+            <BoxView Color="Blue" WidthRequest="210" HeightRequest="150"/>
+            <BoxView Color="Aqua" WidthRequest="210" HeightRequest="150"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Spacing="0">
+            <BoxView Color="Red" WidthRequest="420" HeightRequest="150"/>
+        </StackLayout>
+        <Button BackgroundColor="Green" Text="On Next Page" Clicked="NextPage">
+            
+        </Button>
+    </StackLayout>
+
+    
+
+</ContentPage>
